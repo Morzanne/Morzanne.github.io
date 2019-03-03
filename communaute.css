@@ -1,0 +1,148 @@
+@font-face{
+  font-family: 'sauron';
+  src: url('anicb___.ttf');
+}
+@font-face{
+  font-family: 'texte';
+  src: url('partybusiness.ttf')
+}
+@font-face{
+  font-family: 'signes';
+  src: url('tngan.ttf');
+}
+li .nav-link:hover{
+  text-decoration: underline;
+  color: orange;
+}
+
+.libra{
+  font-family: 'signes';
+  visibility: hidden;
+}
+#thefellows .libra{
+  visibility: visible;
+  color: orange;
+}
+#mostdangerous-tab:hover .libra{
+  visibility: visible;
+}
+#mostwanted-tab:hover .libra{
+  visibility: visible;
+}
+#alreadycaptured-tab:hover .libra{
+  visibility: visible;
+}
+h1, h2, h3, h4, h5, h6{
+  font-family: 'sauron';
+  font-size:25px;
+}
+hr{
+  border-color:orange;
+  
+}
+body{
+  font-family: 'texte';
+  font-size:20px;
+  background-image:url(bg.png)
+}
+.troll{
+  font-family: Arial, Helvetica, sans-serif;
+}
+nav, #contact{
+  background-color:orangered;
+  font-size:2rem;
+}
+.nav:hover{
+  color: orange;
+}
+.nav-link{
+  color:grey;
+  
+}
+.gimli{
+  text-decoration: line-through orange;
+  
+}
+
+.darkback{
+  background-image: url(bgdark.png);
+}
+.hovereffect{
+  opacity:0.9;
+  position: relative;
+  background-color:black;
+}
+.hovereffect .texthover{
+  font-size: 40px;
+}
+
+.card-title, .card-text{
+  color:whitesmoke;
+
+}
+.card-img-top{
+  padding: 1%;
+}
+.texthover{
+  position: absolute;
+  top:35%;
+  left:33%;
+  font-weight: bold;
+  color: white;
+}
+.golden{
+  position: absolute;
+  top: 5%;
+  left: 10%;
+  font-size:2rem;
+  border:1px none white;
+  background-color: rgba(255, 255, 255, 0.5);
+  border-radius:10px;
+  display: flex;
+  text-align: center;
+  width:80%;
+  box-shadow:  0px 0px 10px 0px #cfcfcf;
+  
+  
+}
+#carouselExampleSlidesOnly{
+  position: relative;
+}
+#carouselExampleSlidesOnly p{
+  color:white;
+  font-size: 40px;
+  position: absolute;
+  top:33%;
+  left:33%;
+}
+
+.hovereffect:hover .texthover {
+  font-size:1.2rem;
+  position: absolute;
+  top:60%;
+  }
+  .hovereffect:hover .golden{
+    display: none;
+  }
+  .hovereffect:hover{
+    opacity:1;
+  }
+@media all and (min-width: 1024px) and (max-width: 1600px){
+
+  li{
+    font-size:15px;
+  }
+}
+@media all and (min-width: 0px) and (max-width: 768px){
+    #carouselExampleSlidesOnly p{
+      display: none;
+    }
+}
+footer li{
+  list-style: none;
+  
+}
+#contact{
+  display: flex;
+  flex-direction: row;
+}
